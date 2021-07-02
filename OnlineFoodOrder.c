@@ -68,4 +68,4 @@ void signup()
 	scanf("%s", phno);
 
 }
-printf("this is manasa");
+printf("this is manasa\n");
