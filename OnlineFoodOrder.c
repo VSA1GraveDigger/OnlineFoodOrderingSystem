@@ -68,8 +68,3 @@ void signup()
 	scanf("%s", phno);
 
 }
-int execute()
-{
-    printf("execute\n");
-    return 0;
-}
