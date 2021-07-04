@@ -1,1 +1,1 @@
-int signup();
+void signup();
