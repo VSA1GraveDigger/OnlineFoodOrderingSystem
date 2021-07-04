@@ -2,12 +2,7 @@
 #include<stdio.h>
 #include<stdlib.h>
 int choice;
-//char username[50];
-//int age;
-//char emailid[50];
-//char newpassword[50];
-//char confirmpassword[50];
-//char phno[50];
+
 
 int main()
 {

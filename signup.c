@@ -1,5 +1,11 @@
 #include "header.h"
 #include<stdio.h>
+char username[50];
+int age;
+char emailid[50];
+char newpassword[50];
+char confirmpassword[50];
+char phno[50];
 void signup()
 {
 	printf("Enter Your name\t");
