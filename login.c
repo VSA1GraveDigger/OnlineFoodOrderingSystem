@@ -1,4 +1,8 @@
 // Function to Logging in the users
+#include "header.h"
+#include<stdlib.h>
+#include<string.h>
+#include<stdio.h>
 char t_email[100],t_password1[100];
 void login()
 {

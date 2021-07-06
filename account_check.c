@@ -8,15 +8,6 @@ char t_password1[100];
 char t_mobile[50];
 int iter,j;
 int t_age;
-typedef struct details {
-    char uname[100];
-    int age;
-    char password[100];
-    char email[100];
-    char mobile[10];
-}detail;
-detail s[100];
-
 void account_check()
 {
     
