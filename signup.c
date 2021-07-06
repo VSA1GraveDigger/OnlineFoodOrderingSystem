@@ -30,10 +30,10 @@ void signup()
 	scanf("%s", phno);
     val=validation();
 	
-		if(val==1)
-		{
-			account_check();
-		}
+	if(val==1)
+	
+		account_check();
+	
 
 	
 
