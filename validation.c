@@ -30,9 +30,12 @@ int validation()
         // Validate the Email ID
         for (iter = 0;
              t_email[iter] != '\0'; iter++) {
-            if (t_email[iter] == '@'
-                || t_email[iter] == '.')
+            if (!(t_email[iter] == '@'
+                || t_email[iter] == '.'))
+                {
+                    printf("please enter valid email id\n");
                 count++;
+                }
         }
         if (count >= 2
             && strlen(t_email) >= 5) {
