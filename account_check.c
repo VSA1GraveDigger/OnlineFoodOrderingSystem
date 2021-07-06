@@ -4,8 +4,8 @@
 #include<string.h>
 #include<stdio.h>
 char t_email[50],t_name[100];
-char t_password1[100];
-char t_mobile[50];
+char t_newpassword[100];
+char t_phno[50];
 int iter,j;
 int t_age;
 void account_check()
@@ -15,7 +15,7 @@ void account_check()
         // Check whether the email and password are already matched with existed account
         if (!(strcmp(t_email,
                      s[iter].email)
-              && strcmp(t_password1,
+              && strcmp(t_newpassword,
                         s[iter].password))) {
             printf("\n\nAccount Already");
             printf("Existed. Please"
@@ -32,9 +32,9 @@ void account_check()
         strcpy(s[j].uname, t_name);
         s[j].age = t_age;
         strcpy(s[j].password,
-               t_password1);
+               t_newpassword);
         strcpy(s[j].email, t_email);
-        strcpy(s[j].mobile, t_mobile);
+        strcpy(s[j].mobile, t_phno);
         j++;
         printf("\n\n\nAccount"
                " Successfully");
