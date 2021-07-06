@@ -1,6 +1,5 @@
 // Function to check if the account already exists or not
 #include "header.h"
-
 #include<stdlib.h>
 #include<string.h>
 #include<stdio.h>
