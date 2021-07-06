@@ -7,7 +7,7 @@
 char t_name[100],t_email[100],t_newpassword[50],t_confirmpassword[50],t_phno[50];
 int t_age,flag,count,i,caps,small,numbers,special,success;
 
-int validate()
+int validation()
 {
 	// Validate the name
 	for (i = 0; t_name[i] != '\0'; i++) {
