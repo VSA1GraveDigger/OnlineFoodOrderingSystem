@@ -23,8 +23,7 @@ void hotels(int hotel_choice)
 			m[hotel_choice].third_food,
 			m[hotel_choice].third);
 
-		printf("Cart\n5) Exit\n\nPlease Enter");
-		printf("Your Choice\t");
+		printf("Cart\n5) Exit\n\nPlease Enter Your Choice\t");
 		scanf("%d", &food_choice);
 
 		// Get the input for no. of foods
