@@ -2,9 +2,11 @@
 #include<stdio.h>
 #include<stdlib.h>
 #include<string.h>
+#include<conio.h>
+
 int choice;
 
-void main()
+int main()
 {
     
     while(1)
@@ -39,6 +41,7 @@ void main()
 
     }
     }
+    return 0;
     
 
 
