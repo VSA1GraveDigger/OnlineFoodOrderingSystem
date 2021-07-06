@@ -1,6 +1,7 @@
 // Function to check if the account already exists or not
 #include "header.h"
 #include "OnlineFoodOrder.c"
+#include<stdlib.h>
 #include<stdio.h>
 char t_email[50],t_name[100];
 char t_password1[100];

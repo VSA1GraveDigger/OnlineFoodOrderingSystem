@@ -1,5 +1,6 @@
 #include "header.h"
 #include<stdio.h>
+#include<stdlib.h>
 char t_name[100];
 char t_email[100];
 char t_password1[100],t_password2[100];

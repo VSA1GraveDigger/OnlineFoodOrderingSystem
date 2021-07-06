@@ -1,5 +1,6 @@
 #include "header.h"
 #include<stdio.h>
+#include<stdlib.h>
 char username[50];
 int age;
 char emailid[50];

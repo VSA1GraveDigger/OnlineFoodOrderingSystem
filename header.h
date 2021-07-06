@@ -1,2 +1,3 @@
 void signup();
-//int validation();
+int validation();
+void account_check();
