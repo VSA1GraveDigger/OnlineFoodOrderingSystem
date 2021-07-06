@@ -6,7 +6,7 @@
 #include<stdio.h>
 char t_email[50],t_name[100];
 char t_password1[100];
-int t_mobile[50];
+char t_mobile[50];
 int iter,j;
 int t_age;
 
