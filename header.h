@@ -9,10 +9,11 @@ void login();
 int validation();
 int main();
 void account_check();
+void hotels(int x);
 void search_by_hotels();
 void hotel_initialize();
 void cart();
-void hotels(int x);
+
 
 
 // Structure to store the details
