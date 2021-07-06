@@ -3,7 +3,7 @@
 #include<string.h>
 #include<stdio.h>
 
-int food_choice=1,n,hotel_choice;
+int food_choice,n,hotel_choice;
 void hotels(int hotel_choice)
 {
 

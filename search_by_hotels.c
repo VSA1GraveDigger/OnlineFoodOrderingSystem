@@ -5,7 +5,7 @@
 #include<stdlib.h>
 #include<string.h>
 #include<stdio.h>
-int food_choice,n,hotel_choice=1;
+int food_choice,n,hotel_choice;
 void search_by_hotels()
 {
 	hotel_initialize();
