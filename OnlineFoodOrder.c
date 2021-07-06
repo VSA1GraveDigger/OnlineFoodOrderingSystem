@@ -2,10 +2,17 @@
 #include<stdio.h>
 #include<stdlib.h>
 int choice;
-
-
+typedef struct details {
+    char uname[100];
+    int age;
+    char password[100];
+    char email[100];
+    char mobile[10];
+}detail;
+detail s[100];
 int main()
 {
+    
     while(1)
     {
     printf("Welcome To Food World!!!\n");
