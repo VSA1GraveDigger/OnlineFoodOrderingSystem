@@ -26,7 +26,7 @@ int main()
         }
         case 2:
         {
-            //login();
+            login();
             break;
         }
         case 3:
