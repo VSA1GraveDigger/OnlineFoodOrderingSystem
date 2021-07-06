@@ -9,7 +9,8 @@ void cart();
 
 int flag = 1, iter,email_iter, j = 0, count = 0, caps = 0;
 int small = 0, special = 0, numbers = 0;
-int success = 0, val, choice,i,j;
+int success = 0, val, choice;
+int i,j;
 char t_name[100], t_newpassword[100];
 char t_confirmpassword[100], t_email[100];
 char t_phno[100];
