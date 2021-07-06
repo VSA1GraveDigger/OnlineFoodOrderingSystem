@@ -32,7 +32,7 @@ void account_check()
     // one with new inputs
     if (iter == 100) {
         strcpy(s[j].uname, t_name);
-        s[j].age = t_age;
+        s[j].age == t_age;
         strcpy(s[j].password,
                t_password1);
         strcpy(s[j].email, t_email);
