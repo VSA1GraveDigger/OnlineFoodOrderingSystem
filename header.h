@@ -1,6 +1,7 @@
 void signup();
-int validation();
 void login();
+int validation();
+
 void account_check();
 typedef struct details {
     char uname[100];
