@@ -4,10 +4,10 @@
 #include<string.h>
 char t_name[100];
 char t_email[100];
-char t_password1[100],t_password2[100];
+char t_newpassword[100],t_confirmpassword[100];
 int caps,small,numbers,special;
 int t_age[50];
-char t_mobile[50];
+char t_phno[50];
 int success=0;
 
 int validation()
@@ -39,33 +39,33 @@ int validation()
             // Validating the password
             // check if it matches with
             // correct password or not
-            if (!strcmp(t_password1,
-                        t_password2)) {
-                if (strlen(t_password1) >= 8
-                    && strlen(t_password1) <= 12) {
+            if (!strcmp(t_newpassword,
+                        t_confirmpassword)) {
+                if (strlen(t_newpassword) >= 8
+                    && strlen(t_confirmpassword) <= 12) {
                     caps = 0;
                     small = 0;
                     numbers = 0;
                     special = 0;
                     for (iter = 0;
-                         t_password1[iter]
+                         t_newpassword[iter]
                          != '\0';
                          iter++) {
-                        if (t_password1[iter] >= 'A'
-                            && t_password1[iter] <= 'Z')
+                        if (t_newpassword[iter] >= 'A'
+                            && t_newpassword[iter] <= 'Z')
                             caps++;
-                        else if (t_password1[iter] >= 'a'
-                                 && t_password1[iter]
+                        else if (t_newpassword[iter] >= 'a'
+                                 && t_newpassword[iter]
                                         <= 'z')
                             small++;
-                        else if (t_password1[iter] >= '0'
-                                 && t_password1[iter]
+                        else if (t_newpassword[iter] >= '0'
+                                 && t_newpassword[iter]
                                         <= '9')
                             numbers++;
-                        else if (t_password1[iter] == '@'
-                                 || t_password1[iter] == '&'
-                                 || t_password1[iter] == '#'
-                                 || t_password1[iter]
+                        else if (t_newpassword[iter] == '@'
+                                 || t_newpassword[iter] == '&'
+                                 || t_newpassword[iter] == '#'
+                                 || t_newpassword[iter]
                                         == '*')
                             special++;
                     }
@@ -75,11 +75,11 @@ int validation()
                         if (t_age != 0 && t_age > 0) {
                             // Validating the Input mobile
                             // number
-                            if (strlen(t_mobile) == 10) {
+                            if (strlen(t_phno) == 10) {
                                 for (iter = 0; iter < 10; iter++) {
-                                    if (t_mobile[iter]
+                                    if (t_phno[iter]
                                             >= '0'
-                                        && t_mobile[iter]
+                                        && t_phno[iter]
                                                <= '9') {
                                         success = 1;
                                     }
