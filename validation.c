@@ -71,6 +71,8 @@ int validation()
                                  || t_newpassword[iter]
                                         == '*')
                             special++;
+                        else 
+                            printf("passwprd does not match\n");
                     }
                     if (caps >= 1 && small >= 1
                         && numbers >= 1 && special >= 1) {
