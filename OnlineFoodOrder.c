@@ -4,11 +4,11 @@
 #include<string.h>
 #include<conio.h>
 
-int choice;
+
 
 int main()
 {
-    
+    int choice;
     while(1)
     {
     printf("Welcome To Food World!!!\n");
