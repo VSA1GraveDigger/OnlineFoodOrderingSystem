@@ -8,6 +8,7 @@ char emailid[50];
 char newpassword[50];
 char confirmpassword[50];
 char phno[50];
+int val;
 void signup()
 {
 	printf("Enter Your name\t");
@@ -27,14 +28,14 @@ void signup()
 
 	printf("Enter Your Mobile Number\t");
 	scanf("%s", phno);
-    int val=validation();
-	{
+    val=validation();
+	
 		if(val==1)
 		{
 			account_check();
 		}
 
-	}
+	
 
 
 }
