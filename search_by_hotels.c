@@ -8,7 +8,7 @@
 
 void hotels(int hotel_choice)
 {
-	total = 0;
+	
 	while (1) {
 		// Displays the list of foods
 		// available in selected hotel

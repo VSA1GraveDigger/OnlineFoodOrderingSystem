@@ -5,7 +5,7 @@
 #include<conio.h>
 int main()
 {
-    int choice;
+    
     while(1)
     {
     printf("Welcome To Food World!!!\n");
