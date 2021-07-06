@@ -1,5 +1,5 @@
 #include "header.h" 
-#include "signup.h"
+#include "signup.c"
 #include<stdio.h>
 #include<stdlib.h>
 #include<string.h>
