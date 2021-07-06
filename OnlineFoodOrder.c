@@ -4,7 +4,7 @@
 #include<string.h>
 int choice;
 
-int main()
+void main()
 {
     
     while(1)
@@ -39,7 +39,7 @@ int main()
 
     }
     }
-    return 0;
+    
 
 
 
