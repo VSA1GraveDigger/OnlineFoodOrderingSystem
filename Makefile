@@ -4,4 +4,5 @@ run : target
 	./all.out
 clean :
 	rm all.out
+	jj
 	
