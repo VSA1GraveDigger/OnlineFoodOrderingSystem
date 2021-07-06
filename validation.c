@@ -6,7 +6,7 @@
 #include<stdio.h>
 
 char t_name[50],t_email[50],t_newpassword[50],t_confirmpassword[50],t_phno[50];
-int flag,t_age,i,j,count,caps,small,numbers,special,success;
+int flag=1,t_age,i,j,count,caps,small,numbers,special,success;
 int validation()
 {
     // Validate the name
