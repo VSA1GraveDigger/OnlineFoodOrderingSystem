@@ -5,6 +5,7 @@ int main();
 void account_check();
 void search_by_hotels();
 void hotel_initialize();
+void cart();
 // Structure to store the details
 typedef struct details {
     char uname[100];
