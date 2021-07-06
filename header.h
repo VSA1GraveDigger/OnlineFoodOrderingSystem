@@ -1,3 +1,5 @@
+#ifndef __HEADER_H
+#define __HEADER_H
 void signup();
 void login();
 int validation();
@@ -30,3 +32,4 @@ struct hotels {
 
 struct hotels m[5];
 
+#endif

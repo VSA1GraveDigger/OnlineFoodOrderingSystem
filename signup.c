@@ -23,9 +23,9 @@ void signup()
 
 	printf("Enter Your Mobile Number\t");
 	scanf("%s", t_phno);
-    val=validation();
+    val = validation();
 	
-	if(val==1)
+	if(val == 1)
 		account_check();
 	
 
