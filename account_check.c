@@ -8,7 +8,7 @@ char t_email[50],t_name[100];
 char t_password1[100];
 int t_mobile[50];
 int iter,j;
-int t_age[50];
+int t_age;
 
 void account_check()
 {
@@ -32,7 +32,7 @@ void account_check()
     // one with new inputs
     if (iter == 100) {
         strcpy(s[j].uname, t_name);
-        s[j].age == t_age;
+        s[j].age = t_age;
         strcpy(s[j].password,
                t_password1);
         strcpy(s[j].email, t_email);
