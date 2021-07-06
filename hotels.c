@@ -68,5 +68,5 @@ void hotels(int hotel_choice)
 			printf("valid Choice\n\n");
 		}
 	}
-    printf("thankyou");
+    
 }
