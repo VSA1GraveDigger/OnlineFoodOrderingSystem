@@ -26,7 +26,7 @@ void search_by_hotels()
 		exit(1);
 	else
 		hotels(hotel_choice);
-		printf("jbhb");
+		
 }
 
 

@@ -37,5 +37,5 @@ void account_check()
                " Successfully");
         printf("Created!!\n\n");
     }
-    printf("jbhb");
+    
 }
