@@ -6,7 +6,7 @@ char t_name[100];
 char t_email[100];
 char t_newpassword[100],t_confirmpassword[100];
 int caps,small,numbers,special;
-int t_age[50];
+int t_age;
 char t_phno[50];
 int success=0;
 
