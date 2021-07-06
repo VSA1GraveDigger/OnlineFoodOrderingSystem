@@ -8,7 +8,7 @@ int caps,small,numbers,special;
 int t_age[50],t_mobile[50];
 int success=0;
 
-int validate()
+int validation()
 {
     // Validate the name
     int iter,flag,count;
