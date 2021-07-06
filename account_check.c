@@ -8,7 +8,7 @@ int t_mobile[50];
 int iter,j;
 int t_age[50];
 
-void acc_check()
+void account_check()
 {
     
     for (iter = 0; iter < 100; iter++) {
