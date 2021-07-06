@@ -3,14 +3,7 @@
 #include<stdlib.h>
 #include<string.h>
 int choice;
-typedef struct details {
-    char uname[100];
-    int age;
-    char password[100];
-    char email[100];
-    char mobile[10];
-}detail;
-detail s[100];
+
 int main()
 {
     

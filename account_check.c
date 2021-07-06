@@ -1,6 +1,6 @@
 // Function to check if the account already exists or not
 #include "header.h"
-#include "OnlineFoodOrder.c"
+//#include "OnlineFoodOrder.c"
 #include<stdlib.h>
 #include<string.h>
 #include<stdio.h>
@@ -9,6 +9,14 @@ char t_password1[100];
 char t_mobile[50];
 int iter,j;
 int t_age;
+typedef struct details {
+    char uname[100];
+    int age;
+    char password[100];
+    char email[100];
+    char mobile[10];
+}detail;
+detail s[100];
 
 void account_check()
 {
