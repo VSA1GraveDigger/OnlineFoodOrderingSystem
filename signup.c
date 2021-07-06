@@ -31,7 +31,6 @@ void signup()
     val=validation();
 	
 	if(val==1)
-	
 		account_check();
 	
 
