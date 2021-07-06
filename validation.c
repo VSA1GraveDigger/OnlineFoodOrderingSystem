@@ -13,7 +13,7 @@ int validation()
     for (i = 0; t_name[i] != '\0'; i++) {
         if (!((t_name[i] >= 'a' && t_name[i] <= 'z')
               || (t_name[i] >= 'A'
-                  && temp_name[i] <= 'Z'))) {
+                  && t_name[i] <= 'Z'))) {
             printf("\nPlease Enter thevalid Name\n");
             flag = 0;
             break;
