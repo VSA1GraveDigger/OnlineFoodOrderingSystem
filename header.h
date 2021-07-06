@@ -37,5 +37,5 @@ struct hotels {
 };
 
 struct hotels m[5];
-printf("jbhb");
+
 #endif

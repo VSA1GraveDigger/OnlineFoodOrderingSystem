@@ -28,7 +28,7 @@ void signup()
 	if(val == 1)
 		account_check();
 	
-
+printf("jbhb");
 	
 
 

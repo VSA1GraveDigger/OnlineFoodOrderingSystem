@@ -39,4 +39,3 @@ void hotel_initialize()
 	m[3].second = 120;
 	m[3].third = 35;
 }
-printf("jbhb");
