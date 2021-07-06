@@ -69,4 +69,5 @@ void hotels(int hotel_choice)
 		}
 	}
     
+
 }
