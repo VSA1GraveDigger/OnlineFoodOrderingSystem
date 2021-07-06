@@ -26,7 +26,7 @@ int validation()
         for (i = 0;
              t_email[i] != '\0'; i++) {
             if (t_email[i] == '@'
-                || temp_email[i] == '.')
+                || t_email[i] == '.')
                 count++;
         }
         if (count >= 2
@@ -67,7 +67,7 @@ int validation()
                     if (caps >= 1 && small >= 1
                         && numbers >= 1 && special >= 1) {
                         // Validating the Input age
-                        if (t_age != 0 && temp_age > 0) {
+                        if (t_age != 0 && t_age > 0) {
                             // Validating the Input mobile
                             // number
                             if (strlen(t_phno) == 10) {
