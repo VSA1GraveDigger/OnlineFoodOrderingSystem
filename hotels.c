@@ -7,7 +7,7 @@ int food_choice,n,hotel_choice;
 void hotels(int hotel_choice)
 {
 
-	int total;	
+	int total=0;	
 	while (1) {
 		// Displays the list of foods
 		// available in selected hotel
