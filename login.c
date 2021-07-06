@@ -3,7 +3,7 @@
 #include<stdlib.h>
 #include<string.h>
 #include<stdio.h>
-char t_email[100],t_password1[100];
+char t_email[100],t_newpassword[100];
 void login()
 {
     printf("\n\nLOGIN\n\n");
@@ -11,7 +11,7 @@ void login()
     scanf("%s", t_email);
   
     printf("Enter Your Password\t");
-    scanf("%s", t_password1);
+    scanf("%s", t_newpassword);
     int email_iter,search_choice;
   
     for (email_iter = 0; email_iter < 100; email_iter++) {
@@ -20,7 +20,7 @@ void login()
         if (!strcmp(s[email_iter].email, t_email)) {
             // Check whether the password
             // is matched with email or not
-            if (!strcmp(s[email_iter].password, t_password1)) {
+            if (!strcmp(s[email_iter].password, t_newpassword)) {
                 printf("\n\nWelcome %s, ");
                 printf("Your are successfully ");
                 printf("logged in\n\nWe Provide ");
