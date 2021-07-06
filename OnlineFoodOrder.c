@@ -29,7 +29,7 @@ int main()
         }
         case 3:
         {
-            break;
+            exit(1);
         }
         default:
         {
