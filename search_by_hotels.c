@@ -4,8 +4,7 @@
 #include<stdlib.h>
 #include<string.h>
 #include<stdio.h>
-int hotel_choice;
-int food_choice,n,total;
+
 
 void hotels(int hotel_choice)
 {

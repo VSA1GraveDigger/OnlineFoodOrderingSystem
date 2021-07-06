@@ -4,8 +4,7 @@
 #include<stdlib.h>
 #include<string.h>
 #include<stdio.h>
-char t_name[100],t_email[100],t_newpassword[50],t_confirmpassword[50],t_phno[50];
-int t_age,flag,count,i,caps,small,numbers,special,success;
+
 
 int validation()
 {

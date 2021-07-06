@@ -3,7 +3,7 @@
 #include<stdlib.h>
 #include<string.h>
 #include<stdio.h>
-char t_email[100],t_newpassword[100];
+
 void login()
 {
     printf("\n\nLOGIN\n\n");
