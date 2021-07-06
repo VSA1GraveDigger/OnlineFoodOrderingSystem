@@ -2,6 +2,7 @@
 #include "header.h"
 #include "OnlineFoodOrder.c"
 #include<stdlib.h>
+#include<string.h>
 #include<stdio.h>
 char t_email[50],t_name[100];
 char t_password1[100];

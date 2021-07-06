@@ -1,6 +1,7 @@
 #include "header.h" 
 #include<stdio.h>
 #include<stdlib.h>
+#include<string.h>
 int choice;
 typedef struct details {
     char uname[100];

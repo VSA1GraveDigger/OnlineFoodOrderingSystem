@@ -1,5 +1,6 @@
 #include "header.h"
 #include<stdio.h>
+#include<string.h>
 #include<stdlib.h>
 char username[50];
 int age;
@@ -30,7 +31,7 @@ void signup()
 	{
 		if(val==1)
 		{
-			acc_check();
+			account_check();
 		}
 
 	}
