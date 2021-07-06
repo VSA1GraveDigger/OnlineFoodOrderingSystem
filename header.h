@@ -12,6 +12,7 @@ void account_check();
 void search_by_hotels();
 void hotel_initialize();
 void cart();
+void hotels(int x);
 
 
 // Structure to store the details
