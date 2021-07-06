@@ -3,7 +3,8 @@
 #include<stdlib.h>
 #include<string.h>
 #include<stdio.h>
-
+int iter,t_age,i,j;
+char t_email[50],t_name[50],t_newpassword[50],t_phno[50];
 void account_check()
 {
     

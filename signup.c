@@ -2,7 +2,8 @@
 #include<stdio.h>
 #include<string.h>
 #include<stdlib.h>
-
+char t_name[50],t_email[50],t_newpassword[50],t_confirmpassword[50],t_phno[50];
+int val,t_age;
 void signup()
 {
 	printf("Enter Your name\t");

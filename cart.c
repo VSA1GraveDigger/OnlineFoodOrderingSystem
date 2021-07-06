@@ -3,7 +3,8 @@
 #include<stdlib.h>
 #include<string.h>
 #include<stdio.h>
-
+int total=0;
+int ch,confirm;
 void cart()
 {
 	printf("\n\n\n\n--------------Cart");
