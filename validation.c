@@ -6,7 +6,8 @@ char t_name[100];
 char t_email[100];
 char t_password1[100],t_password2[100];
 int caps,small,numbers,special;
-int t_age[50],t_mobile[50];
+int t_age[50];
+char t_mobile[50];
 int success=0;
 
 int validation()
