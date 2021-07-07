@@ -3,11 +3,11 @@
 
 void setUp()
 {
-
+    printf("before\n");
 }
 void tearDown()
 {
-
+    printf("after\n");
 }
  
 void test_miniproject(void)
