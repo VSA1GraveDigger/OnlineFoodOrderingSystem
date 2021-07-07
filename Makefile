@@ -1,5 +1,5 @@
-target : signup.c validation.c account_check.c login.c hotels.c search_by_hotels.c hotel_initialize.c unity.c cart.c OnlineFoodOrder.c header.h
-	gcc signup.c validation.c account_check.c login.c hotels.c search_by_hotels.c hotel_initialize.c unity.c cart.c OnlineFoodOrder.c -o all.out
+target : signup.c validation.c account_check.c login.c hotels.c search_by_hotels.c hotel_initialize.c unity.c test_demo.c cart.c OnlineFoodOrder.c header.h
+	gcc signup.c validation.c account_check.c login.c hotels.c search_by_hotels.c hotel_initialize.c unity.c test_demo.c cart.c OnlineFoodOrder.c -o all.out
 run : target
 	./all.out
 clean :
