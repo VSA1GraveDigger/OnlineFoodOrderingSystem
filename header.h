@@ -13,7 +13,9 @@ void hotels(int x);
 void search_by_hotels();
 void hotel_initialize();
 void cart();
+void setUp();
 
+void tear_Down();
 
 
 // Structure to store the details
