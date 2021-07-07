@@ -23,8 +23,7 @@ void signup()
 
 	printf("Enter Your Mobile Number\t");
 	scanf("%s", t_phno);
-	return t_newpassword;
-	return t_newpassword;
+	
 	
     val = validation();
 	
